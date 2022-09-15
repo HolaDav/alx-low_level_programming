@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphavet - function to print alpha
+ * print_alphabet - function to print abc
  *
  * Return: Always (0) success
  */
@@ -10,7 +10,7 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(c);
+		_putchar(c);
 	}
-	putchar('\n');
+	_putchar('\n');
 }

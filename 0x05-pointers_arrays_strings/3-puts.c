@@ -9,7 +9,6 @@
 
 void _puts(char *str)
 {
-	str = "My world";
 	_puts(str);
 	_puts("\n");
 }

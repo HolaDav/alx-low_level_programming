@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * puts2 - prints every character of a string followed by a new line
@@ -17,7 +18,7 @@ void puts2(char *str)
 	}
 	for (i = 0; i < n; i += 2)
 	{
-		_putchar(str[i]);
+		putchar(str[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 }

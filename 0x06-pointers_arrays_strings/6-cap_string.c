@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cao_string - capitalizes all words of a srting
+ * cap_string - capitalizes all words of a srting
  * @str: string parameter
  *
  * Return: string

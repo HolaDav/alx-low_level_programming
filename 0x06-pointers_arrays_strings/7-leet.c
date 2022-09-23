@@ -11,17 +11,19 @@ char *leet(char *str)
 {
 	int i = 0;
 	int j;
-	char a[] = {'a', 'e', 'o', 't', 'l'};
-	char n[] = {4, 3, 0, 7, 1};
+	char a[5] = {'a', 'e', 'o', 't', 'l'};
+	char n[5] = {'4', '3', '0', '7', '1'};
 
 	while (str[i])
 	{
-		for (j = 0; j < 5; j++)
+		j = 0;
+		while (j < 5)
 		{
 			if (str[i] == a[j] || str[i] == a[j] - 32)
 			{
-				str[i] = n[i];
+				str[i] = n[j];
 			}
+			j++;
 		}
 		i++;
 	}

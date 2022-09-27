@@ -6,7 +6,7 @@
  * @s: string searched
  * @accept: bytes to search for
  *
- * Return: pointer to byte s 
+ * Return: pointer to byte s
  * that matches bytes in accept
  * NULL of not found
  */
